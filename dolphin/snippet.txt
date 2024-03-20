@@ -1,0 +1,14 @@
+<model-viewer src="frasers_dolphinB.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate>
+    <button class="Hotspot" slot="hotspot-1" data-position="-0.008657619632794988m 0.10627716112828917m -0.5826210052036048m" data-normal="-0.3218069387381773m -0.8683190509033958m 0.37744181010877564m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">尾巴</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
